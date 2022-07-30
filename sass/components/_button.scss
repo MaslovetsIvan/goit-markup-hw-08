@@ -1,0 +1,26 @@
+.button--contaner{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 50px;
+    &__item:not(:last-child){
+        margin-right: 8px;
+    }
+    &__button{
+        font-family:Roboto;
+        background:  #F5F4FA;
+        color: var(--title-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        border: 0;
+        border-radius: 4px;
+        padding: 6px 22px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover,&:focus{
+        background: var(--button-COLOR);
+        color: #FFFFFF;}
+    }
+}
+    

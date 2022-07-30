@@ -1,0 +1,51 @@
+.benefits{
+    padding-top: 94px;
+    &__tatel{
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+    }
+    &__contaner{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 ;
+    }
+    &__item{
+        width: 270px;
+    }
+    &__img{
+        display: flex;
+        width: 270px;
+        height: 120px;
+        background-color: #F5F4FA;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    &__submenu-titel{
+        color: var(--title-color);
+        text-transform:uppercase;
+        font-size: 14px;
+        line-height: 1.14;
+        margin: 0 0 10px 0 ;
+    }
+    &__content{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        margin: 0;
+    }
+}
+
+
+
+
+

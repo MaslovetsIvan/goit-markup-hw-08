@@ -1,0 +1,15 @@
+.logo{
+	color: var(--paragraph-color);
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+    margin-right: 94px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    &__text{
+        color: #2196F3;
+    }
+}
