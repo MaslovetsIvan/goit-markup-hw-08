@@ -2,10 +2,11 @@ ul{
     padding-inline-start:0px;}
 
 .contaner{
-    width: 1200px;
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
+    position: relative;
 }
 ul {
     list-style: none;

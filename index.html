@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,6 +47,64 @@
                         </svg> +38 096 111 11 11
                     </a>
                 </div>
+            </div>
+            <div class="mobail ">
+                <nav class="mobail__menu ">
+                    <a class="logo" href="/"><span class="logo__text"> Web</span>Studio </a>
+                    <button
+                    type="button" 
+                    class="menu__button is-open"
+                    data-menu-button >
+                        <svg width="40" height="40" 
+                        aria-label="Мобильное меню" >
+                        <use class="icon__cross" href="./images/sprate.svg#icon-cross"></use>
+                        <use class="icon__menu" href="./images/sprate.svg#icon-menu"></use>
+                        </svg>
+                    </button>
+                    <div class="menu__container" data-menu>
+                        <ul class="menu__nav">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#" >Студия</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="portfolio.html">Портфолио</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                        <div class="menu__contact">
+                            <a class="menu__link menu__link--phone" href="tel:+380961111111">
+                                +38 096 111 11 11
+                            </a>
+                            <a class="menu__link" href="mailto:info@devstudio.com"> 
+                                info@devstudio.com
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                    <svg width="83" height="17"><use href="./images/sprate.svg#instagram" ></use></svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <svg width="59" height="15"><use href="./images/sprate.svg#twitter"></use></svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <svg width="81" height="15"><use href="./images/sprate.svg#facebook"></use></svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <svg width="69" height="15"><use href="./images/sprate.svg#linkedIn"></use></svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
     </header>
@@ -439,6 +498,7 @@
 
 
     <script src="./Js/modal.js"></script>
+    <script src="./Js/mobile-menu.js"></script>
 </body>
 
 </html>
