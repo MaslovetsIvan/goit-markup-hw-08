@@ -13,16 +13,16 @@
         margin: -1px;
     }
     &__contaner{
-        display: flex;
+        //display: flex;
         justify-content: space-between;
         margin: 0 ;
     }
     &__item{
-        width: 270px;
+        max-width:100%;
     }
     &__img{
         display: flex;
-        width: 270px;
+        width: 100%;
         height: 120px;
         background-color: #F5F4FA;
         justify-content: center;
@@ -30,6 +30,7 @@
         margin-bottom: 30px;
     }
     &__submenu-titel{
+        display: block;
         color: var(--title-color);
         text-transform:uppercase;
         font-size: 14px;
@@ -41,7 +42,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
-        margin: 0;
+        margin: 0 0 30px 0;
     }
 }
 

@@ -1,11 +1,11 @@
 .projects{
     padding-top: 94px;
     padding-bottom: 94px;
+    //&__contaner{
+    //display: flex;
+    //flex-wrap: wrap;
+    //margin: -15px -15px 0px -15px;}
     &__contaner{
-    display: flex;
-    flex-wrap: wrap;
-    margin: -15px -15px 0px -15px;}
-    &__item{
     position: relative;
     border: 1px solid #EEEEEE;
     margin: 15px;
@@ -17,9 +17,17 @@
     &:hover .projects__text{
         transform: translateY(0);}
     }
+    .button--contaner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .button--contaner__item{
+        display: block;
+        margin: 10px;
+    }
     &__img{
         position: relative;
-        width:370px;
         height: 294px;
         overflow: hidden;
     }
